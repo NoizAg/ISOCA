@@ -1,0 +1,19 @@
+// Componente HeroSection básico
+export default function HeroSection() {
+  return (
+    <section className="relative h-[100vh] flex items-center justify-center bg-black">
+      <video
+        className="absolute inset-0 w-full h-full object-cover opacity-70"
+        src="/videos/hero-video.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+      <div className="relative z-10 text-center text-white">
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg font-[Outfit]">Festival Isoca 2026: Música, Talleres y Naturaleza</h1>
+        <a href="#entradas" className="inline-block px-8 py-3 bg-green-600 rounded text-lg font-semibold hover:bg-green-700 transition">¡Comprar Entradas!</a>
+      </div>
+    </section>
+  );
+} 
