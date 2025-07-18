@@ -19,6 +19,19 @@ export default function UbicacionPage() {
          {/* Imagen del lugar */}
      
       </div>
+      {/* Imágenes del lugar */}
+      <div className="w-full max-w-3xl mx-auto mt-10 flex flex-col gap-6">
+        <img
+          src="/images/ubicación.jpg"
+          alt="Ubicación Festival Isoca"
+          className="w-3/4 mx-auto rounded-lg shadow-md object-cover"
+        />
+        <img
+          src="/images/Ubi2.jpg"
+          alt="Otra vista de la ubicación del festival"
+          className="w-full rounded-lg shadow-md object-cover"
+        />
+      </div>
     </div>
   );
 } 
