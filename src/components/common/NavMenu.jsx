@@ -54,11 +54,11 @@ export default function NavMenu({ mobile = false, onItemClick }) {
         </li>
         <li>
           <a 
-            href="/informacion/preguntas-frecuentes" 
+            href="/informacion/experiencia" 
             className="block py-3 px-4 text-lg font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg transition-colors"
             onClick={handleItemClick}
           >
-            Preguntas Frecuentes
+            Experiencia
           </a>
         </li>
       </ul>
@@ -105,10 +105,10 @@ export default function NavMenu({ mobile = false, onItemClick }) {
       </li>
       <li>
         <a 
-          href="/informacion/preguntas-frecuentes" 
+          href="/informacion/experiencia" 
           className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-200 relative group"
         >
-          Preguntas Frecuentes
+          Experiencia
           <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-600 transition-all duration-200 group-hover:w-full"></span>
         </a>
       </li>
