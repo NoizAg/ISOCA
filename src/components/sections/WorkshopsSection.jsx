@@ -1,7 +1,7 @@
 // Componente WorkshopsSection con imagen de fondo
 export default function WorkshopsSection() {
   return (
-    <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[100vh] flex items-center justify-center overflow-hidden">
       <img
         src="/images/activity-thumb-1.jpg"
         alt="Talleres en el Festival Isoca"

@@ -3,7 +3,7 @@ export default function BandasPage() {
     <div 
       className="relative min-h-screen bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: 'url("/images/Bandas.jpg")',
+        backgroundImage: 'url("/images/Escenariodelisoca.webp")',
       }}
     >
       {/* Gradiente con CSS inline */}

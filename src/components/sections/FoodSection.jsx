@@ -3,7 +3,7 @@ export default function FoodSection() {
   return (
     <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
       <img
-        src="\images\Comida.jpeg"
+        src="\images\Comida.webp"
         alt="Comidas en el Festival Isoca"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />

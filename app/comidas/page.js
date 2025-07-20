@@ -3,7 +3,7 @@ export default function ComidasPage() {
     <div 
       className="relative min-h-screen bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: 'url("/images/Comidas.jpg")',
+        backgroundImage: 'url("/images/Comidas.webp")',
       }}
     >
       {/* Gradiente con CSS inline */}

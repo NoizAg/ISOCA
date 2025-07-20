@@ -1,7 +1,7 @@
 // Componente BandsSection con imagen de fondo
 export default function BandsSection() {
   return (
-    <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[100vh] flex items-center justify-center overflow-hidden">
       <img
         src="/images/band-photo-1.jpg"
         alt="Bandas en el Festival Isoca"
