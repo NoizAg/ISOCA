@@ -6,4 +6,9 @@
 body {
   font-family: 'Inter', Arial, sans-serif;
   background: #f8fafc;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 } 
