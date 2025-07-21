@@ -3,7 +3,7 @@ export default function UbicacionPage() {
     <div 
       className="relative min-h-screen bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: 'url("/images/Ubi2.jpg")',
+        backgroundImage: 'url("/images/Ubi2.webp")',
       }}
     >
       {/* Gradiente con CSS inline */}

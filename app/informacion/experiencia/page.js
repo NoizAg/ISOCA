@@ -1,19 +1,19 @@
 export default function ExperienciaPage() {
   const images = [
-    "isoca@agusph-016.jpg",
-    "isoca@agusph-045.jpg",
-    "isoca@agusph-054.jpg",
-    "isoca@agusph-058.jpg",
-    "isoca@agusph-070.jpg",
-    "isoca@agusph-074.jpg",
-    "isoca@agusph-086.jpg",
-    "isoca@agusph-129.jpg",
-    "isoca@agusph-135.jpg",
-    "isoca@agusph-150.jpg",
-    "isoca@agusph-161.jpg",
-    "isoca@agusph-302.jpg",
-    "isoca@agusph-360.jpg",
-    "isoca@agusph-850.jpg"
+    "isoca@agusph-016.webp",
+    "isoca@agusph-045.webp",
+    "isoca@agusph-054.webp",
+    "isoca@agusph-058.webp",
+    "isoca@agusph-070.webp",
+    "isoca@agusph-074.webp",
+    "isoca@agusph-086.webp",
+    "isoca@agusph-129.webp",
+    "isoca@agusph-135.webp",
+    "isoca@agusph-150.webp",
+    "isoca@agusph-161.webp",
+    "isoca@agusph-302.webp",
+    "isoca@agusph-360.webp",
+    "isoca@agusph-850.webp"
   ];
 
   return (

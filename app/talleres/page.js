@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-const images = [1, 2, 3, 4, 5, 6].map((n) => `/images/Talleres/${n}.jpg`); // o .jpeg según corresponda
+const images = [1, 2, 3, 4, 5, 6].map((n) => `/images/Talleres/${n}.webp`); // o .jpeg según corresponda
 
 export default function TalleresPage() {
   const [modalImg, setModalImg] = useState(null);
