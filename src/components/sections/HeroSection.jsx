@@ -4,7 +4,7 @@ export default function HeroSection() {
     <section className="relative h-[100vh] flex items-center justify-center bg-black">
       <video
         className="absolute inset-0 w-full h-full object-cover opacity-70"
-        src="/videos/hero-video.mp4"
+        src="/videos/Hero-Video.mp4"
         autoPlay
         loop
         muted
@@ -16,4 +16,4 @@ export default function HeroSection() {
       </div>
     </section>
   );
-} 
+}
