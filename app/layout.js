@@ -1,6 +1,7 @@
 import './globals.css';
 import Header from '../src/components/layout/Header';
 import Footer from '../src/components/layout/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function RootLayout({ children }) {
   return (
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
