@@ -1,11 +1,16 @@
+import Image from 'next/image';
+
 // Componente FoodSection con imagen de fondo
 export default function FoodSection() {
   return (
     <section className="relative h-[100vh] flex items-center justify-center overflow-hidden">
-      <img
-        src="\images\Comida.webp"
+      <Image
+        src="/images/Comida-optimized.webp"
         alt="Comidas en el Festival Isoca"
-        className="absolute inset-0 w-full h-full object-cover z-0"
+        fill
+        className="object-cover z-0"
+        priority={false}
+        sizes="100vw"
       />
       <div className="absolute inset-0 bg-black/50 z-10" />
       <div className="relative z-20 text-center text-white px-4 w-full">

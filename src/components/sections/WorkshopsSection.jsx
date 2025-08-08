@@ -1,11 +1,16 @@
+import Image from 'next/image';
+
 // Componente WorkshopsSection con imagen de fondo
 export default function WorkshopsSection() {
   return (
     <section className="relative h-[100vh] flex items-center justify-center overflow-hidden">
-      <img
+      <Image
         src="/images/activity-thumb-1.jpg"
         alt="Talleres en el Festival Isoca"
-        className="absolute inset-0 w-full h-full object-cover z-0"
+        fill
+        className="object-cover z-0"
+        priority={false}
+        sizes="100vw"
       />
       <div className="absolute inset-0 bg-black/50 z-10" />
       <div className="relative z-20 text-center text-white px-4 w-full">

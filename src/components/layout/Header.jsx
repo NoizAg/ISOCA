@@ -28,63 +28,42 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Portal para overlay y drawer modernizado
-  const mobileMenuPortal = mobileOpen && typeof window !== 'undefined' && document.body
-    ? ReactDOM.createPortal(
-        <>
-          {/* Overlay con mejor efecto */}
-          <div
-            style={{ zIndex: 9998 }}
-            className={`fixed inset-0 bg-black/60 backdrop-blur-sm transition-all duration-500 ${
-              mobileOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
-            }`}
-            onClick={() => setMobileOpen(false)}
-            aria-hidden={!mobileOpen}
-          />
-          {/* Drawer modernizado */}
-          <nav
-            style={{ zIndex: 9999 }}
-            className={`fixed top-0 right-0 h-full w-[85vw] max-w-sm bg-white/95 backdrop-blur-xl shadow-2xl border-l border-white/20 transform transition-all duration-500 ease-out ${
-              mobileOpen ? 'translate-x-0' : 'translate-x-full'
-            } lg:hidden overflow-y-auto`}
-            aria-label="Menú móvil"
-          >
-            <div className="p-8 flex flex-col h-full">
-              <div className="flex items-center justify-between mb-10 pb-6 border-b border-gray-200/50">
-                <div className="flex items-center gap-4">
-                  <div className="relative">
-                    <img
-                      src="/images/logo isoca.png"
-                      alt="Logo Isoca Festival"
-                      className="w-10 h-10 object-contain transition-transform duration-300 hover:scale-110"
-                      style={{ 
-                        borderRadius: "12px", 
-                        background: "linear-gradient(135deg, #f8fafc, #e2e8f0)",
-                        padding: "2px"
-                      }}
-                    />
-                    <div className="absolute -inset-1 bg-gradient-to-r from-yellow-400 to-amber-600 rounded-xl blur opacity-20"></div>
-                  </div>
-                  <span className="font-bold text-xl text-gray-800 tracking-tight">Festival Isoca</span>
-                </div>
-                <button
-                  onClick={() => setMobileOpen(false)}
-                  className="p-3 hover:bg-gray-100/80 rounded-xl transition-all duration-300 hover:scale-110 active:scale-95"
-                  aria-label="Cerrar menú"
-                >
-                  <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
-              <div className="flex-1">
-                <NavMenu mobile={true} onItemClick={() => setMobileOpen(false)} />
-              </div>
+  // Portal para el menú móvil
+  const mobileMenuPortal = typeof window !== 'undefined' ? ReactDOM.createPortal(
+    mobileOpen ? (
+      <nav className="fixed inset-0 z-50 lg:hidden">
+        {/* Overlay */}
+        <div 
+          className="absolute inset-0 bg-black/50 backdrop-blur-sm"
+          onClick={() => setMobileOpen(false)}
+        />
+        
+        {/* Menú */}
+        <div className="absolute top-0 right-0 w-80 h-full bg-white/95 backdrop-blur-xl shadow-2xl border-l border-gray-200/50 transform transition-transform duration-300 ease-out">
+          <div className="flex flex-col h-full p-6">
+            {/* Header del menú */}
+            <div className="flex items-center justify-between mb-8">
+              <span className="text-xl font-bold text-gray-800">Menú</span>
+              <button
+                onClick={() => setMobileOpen(false)}
+                className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
             </div>
-          </nav>
-        </>,
-        document.body
-      ) : null;
+            
+            {/* Navegación */}
+            <div className="flex-1">
+              <NavMenu mobile={true} onItemClick={() => setMobileOpen(false)} />
+            </div>
+          </div>
+        </div>
+      </nav>
+    ) : null,
+    document.body
+  ) : null;
 
   return (
     <header 
@@ -101,9 +80,11 @@ export default function Header() {
           className="flex items-center gap-4 group transition-all duration-300 hover:scale-105 active:scale-95"
         >
           <div className="relative">
-            <img
+            <Image
               src="/images/logo isoca.png"
               alt="Logo Isoca Festival"
+              width={64}
+              height={64}
               className={`object-contain transition-all duration-500 ${
                 scrolled ? 'w-12 h-12' : 'w-16 h-16'
               }`}
@@ -113,6 +94,7 @@ export default function Header() {
                 padding: "4px",
                 boxShadow: "0 8px 32px rgba(0, 0, 0, 0.1)"
               }}
+              priority={true}
             />
             {/* Glow effect */}
             <div className="absolute -inset-2 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-2xl blur-lg opacity-0 group-hover:opacity-30 transition-opacity duration-500"></div>

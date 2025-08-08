@@ -4,7 +4,7 @@ export default function ExperienceSection() {
     <section 
       className="relative h-[100vh] flex items-center justify-center bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: 'url("/images/Experienciasdelisoca.webp")',
+        backgroundImage: 'url("/images/Experienciasdelisoca-optimized.webp")',
       }}
     >
       {/* Gradiente con CSS inline */}

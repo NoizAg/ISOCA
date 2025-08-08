@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function UbicacionPage() {
   return (
     <div 
@@ -36,12 +38,16 @@ export default function UbicacionPage() {
             ></iframe>
           </div>
           
-          {/* Imagen principal */}
+          {/* Imagen principal optimizada */}
           <div className="w-full max-w-3xl mx-auto">
-            <img
+            <Image
               src="/images/ubicación.jpg"
               alt="Ubicación Festival Isoca"
+              width={800}
+              height={600}
               className="w-3/4 mx-auto rounded-lg shadow-md object-cover"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, 75vw"
             />
           </div>
         </div>

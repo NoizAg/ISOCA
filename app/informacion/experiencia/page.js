@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function ExperienciaPage() {
   const images = [
     "isoca@agusph-016.webp",
@@ -36,16 +38,20 @@ export default function ExperienciaPage() {
             Un viaje inolvidable donde la música, la naturaleza y la comunidad se unen para crear momentos únicos que perdurarán en tu memoria.
           </p>
         </div>
-        {/* Masonry grid de imágenes */}
+        {/* Masonry grid de imágenes optimizadas */}
         <div className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4 max-w-5xl mx-auto mt-10">
           {images.map((img) => (
-            <img
-              key={img}
-              src={`/images/Experiencia/${img}`}
-              alt="Experiencia Isoca"
-              className="w-full mb-4 rounded-lg shadow-md break-inside-avoid"
-              loading="lazy"
-            />
+            <div key={img} className="mb-4 break-inside-avoid">
+              <Image
+                src={`/images/Experiencia/${img}`}
+                alt="Experiencia Isoca"
+                width={400}
+                height={300}
+                className="w-full rounded-lg shadow-md"
+                loading="lazy"
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+              />
+            </div>
           ))}
         </div>
       </div>
