@@ -16,11 +16,11 @@ export default function BandasPage() {
       
       <div className="relative z-10 container mx-auto py-16 px-6">
         <div className="max-w-4xl">
-          <h1 className="text-4xl md:text-6xl font-Creepster  mb-6 text-white drop-shadow-lg">LINE UP</h1>
-          {/*<p className="text-lg md:text-xl max-w-2xl mb-8 text-white drop-shadow-md leading-relaxed">
-            Conoce a los artistas y bandas que formarán parte del Festival Isoca 2026. 
-            ¡Disfrutemos de la música que tanto nos gusta y exploremos nuevos artistas!
-          </p>*/}
+          <h1 className="text-2xl md:text-6xl font-Creepster  mb-6 text-white drop-shadow-lg">LINE UP</h1>
+          {<p className="text-1g md:text-xl max-w-2xl mb-8 text-grey drop-shadow-md leading-relaxed">
+            Acá te vamos a mostrar las bandas que van a estar en el Festival Isoca 2026. 
+            Cuando tengamos novedades las vas a poder ver acá!!!
+          </p>}
         </div>
       </div>
     </div>

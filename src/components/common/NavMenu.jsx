@@ -16,6 +16,7 @@ export default function NavMenu({ mobile = false, onItemClick }) {
   if (mobile) {
     return (
       <ul className="flex flex-col gap-4">
+        {/*
         <li>
           <a 
             href="/comidas" 
@@ -25,6 +26,7 @@ export default function NavMenu({ mobile = false, onItemClick }) {
             Comidas
           </a>
         </li>
+        */}
         <li>
           <a 
             href="/talleres" 
@@ -49,7 +51,7 @@ export default function NavMenu({ mobile = false, onItemClick }) {
             className="block py-3 px-4 text-lg font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg transition-colors"
             onClick={handleItemClick}
           >
-            Ubicación
+            Ubicacion
           </a>
         </li>
         <li>
@@ -67,6 +69,7 @@ export default function NavMenu({ mobile = false, onItemClick }) {
 
   return (
     <ul className="flex items-center gap-8">
+      {/**
       <li>
         <a 
           href="/comidas" 
@@ -76,6 +79,7 @@ export default function NavMenu({ mobile = false, onItemClick }) {
           <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-600 transition-all duration-200 group-hover:w-full"></span>
         </a>
       </li>
+      */}
       <li>
         <a 
           href="/talleres" 
@@ -99,7 +103,7 @@ export default function NavMenu({ mobile = false, onItemClick }) {
           href="/informacion/ubicacion" 
           className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-200 relative group"
         >
-          Ubicación
+          Ubicacion
           <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-600 transition-all duration-200 group-hover:w-full"></span>
         </a>
       </li>

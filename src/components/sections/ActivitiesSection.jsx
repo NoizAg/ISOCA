@@ -11,7 +11,7 @@ export default function ActivitiesSection() {
       </div>
       <h2 className="text-3xl font-bold mb-4">Actividades</h2>
       <p className="mb-6 text-lg max-w-2xl mx-auto">Más allá de la música, sumérgete en experiencias únicas para conectar con la naturaleza y el bienestar.</p>
-      <a href="/actividades" className="inline-block px-6 py-2 bg-green-600 text-white rounded font-semibold hover:bg-green-700 transition">Conocer Más</a>
+      <a href="/actividades" className="inline-block px-6 py-2 bg-green-600 text-white rounded font-semibold hover:bg-green-700 transition">Conocer Mas</a>
     </section>
   );
 } 
