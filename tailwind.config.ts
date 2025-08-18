@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        'sans': ['"Stupid Meeting"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       colors: {
         'isoca-green': {
