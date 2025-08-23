@@ -1,8 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 /* Estilos globales adicionales */
+
+@font-face {
+  font-family: 'Stupid Meeting';
+  src: url('/fonts/Stupid Meeting_D.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: 'Stupid Meeting', 'Inter', Arial, sans-serif;
   background: #f8fafc;
@@ -11,4 +20,8 @@ body {
 
 html {
   overflow-x: hidden;
-} 
+}
+
+.subtitle, .subtitulo, .subtitle-main {
+  font-family: 'Bangers', cursive !important;
+}

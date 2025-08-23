@@ -14,8 +14,10 @@ export default function BandsSection() {
       />
       <div className="absolute inset-0 bg-black/50 z-10" />
       <div className="relative z-20 text-center text-white px-4 w-full">
-        <h2 className="text-3xl md:text-5xl font-bold mb-4 drop-shadow-lg">Bandas</h2>
-        <p className="mb-6 text-lg max-w-2xl mx-auto drop-shadow">Disfruta de tus artistas favoritos y descubre nuevas propuestas en un entorno magico.</p>
+        <h2 className="text-3xl md:text-6xl font-bold mb-4 drop-shadow-lg ">Bandas</h2>
+        <p className="mb-6 text-lg max-w-3xl mx-auto drop-shadow">
+          <span style={{ FontSize: '25px' }}>DISFRUTA DE TUS ARTISTAS FAVORITOS Y DESCUBRE NUEVAS PROPUESTAS EN UN ENTORNO MAGICO.</span>
+        </p>
         <a href="/bandas" className="inline-block px-6 py-2 bg-green-600 text-white rounded font-semibold hover:bg-green-700 transition">Conocer Mas</a>
       </div>
     </section>

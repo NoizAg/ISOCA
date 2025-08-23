@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Stupid Meeting', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        'bangers': ['Bangers', 'cursive'],
       },
       colors: {
         'isoca-green': {

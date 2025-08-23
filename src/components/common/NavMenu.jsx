@@ -29,15 +29,6 @@ export default function NavMenu({ mobile = false, onItemClick }) {
         */}
         <li>
           <a 
-            href="/talleres" 
-            className="block py-3 px-4 text-lg font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg transition-colors"
-            onClick={handleItemClick}
-          >
-            Talleres
-          </a>
-        </li>
-        <li>
-          <a 
             href="/bandas" 
             className="block py-3 px-4 text-lg font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg transition-colors"
             onClick={handleItemClick}
@@ -47,11 +38,11 @@ export default function NavMenu({ mobile = false, onItemClick }) {
         </li>
         <li>
           <a 
-            href="/informacion/ubicacion" 
+            href="/talleres" 
             className="block py-3 px-4 text-lg font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg transition-colors"
             onClick={handleItemClick}
           >
-            Ubicacion
+            Talleres
           </a>
         </li>
         <li>
@@ -61,6 +52,15 @@ export default function NavMenu({ mobile = false, onItemClick }) {
             onClick={handleItemClick}
           >
             Experiencia
+          </a>
+        </li>
+        <li>
+          <a 
+            href="/informacion/ubicacion" 
+            className="block py-3 px-4 text-lg font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg transition-colors"
+            onClick={handleItemClick}
+          >
+            Ubicacion
           </a>
         </li>
       </ul>
@@ -82,15 +82,6 @@ export default function NavMenu({ mobile = false, onItemClick }) {
       */}
       <li>
         <a 
-          href="/talleres" 
-          className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-200 relative group"
-        >
-          Talleres
-          <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-600 transition-all duration-200 group-hover:w-full"></span>
-        </a>
-      </li>
-      <li>
-        <a 
           href="/bandas" 
           className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-200 relative group"
         >
@@ -100,10 +91,10 @@ export default function NavMenu({ mobile = false, onItemClick }) {
       </li>
       <li>
         <a 
-          href="/informacion/ubicacion" 
+          href="/talleres" 
           className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-200 relative group"
         >
-          Ubicacion
+          Talleres
           <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-600 transition-all duration-200 group-hover:w-full"></span>
         </a>
       </li>
@@ -113,6 +104,15 @@ export default function NavMenu({ mobile = false, onItemClick }) {
           className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-200 relative group"
         >
           Experiencia
+          <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-600 transition-all duration-200 group-hover:w-full"></span>
+        </a>
+      </li>
+      <li>
+        <a 
+          href="/informacion/ubicacion" 
+          className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-200 relative group"
+        >
+          Ubicacion
           <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-600 transition-all duration-200 group-hover:w-full"></span>
         </a>
       </li>

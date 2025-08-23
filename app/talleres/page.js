@@ -8,10 +8,11 @@ export default function TalleresPage() {
 
   return (
     <div className="container mx-auto py-16">
-      <h1 className="text-4xl font-bold mb-6">Talleres</h1>
-      <p className="text-lg max-w-2xl mb-8">
-        Participa en charlas y talleres interactivos sobre ecología, bienestar y desarrollo personal.
+      <h1 className="mb-6 text-6xl mx-auto font-bold text-center">Talleres</h1>
+      <p className="mb-6 text-lg max-w-2xl mx-auto font-bold ml-4">
+        Participa en charlas y talleres interactivos sobre ecologia, bienestar y desarrollo personal.
       </p>
+       <h1 className="mb-6 text-4xl mx-auto font-bold text-center">ACA TE VAMOS A MOSTRAR TODAS LAS NOVEDADES</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
         {images.map((src, i) => (
           <button
@@ -19,18 +20,19 @@ export default function TalleresPage() {
             className="bg-gray-200 rounded-lg overflow-hidden shadow hover:scale-105 transition flex items-center justify-center p-0"
             style={{ maxWidth: 400, width: "100%" }}
             onClick={() => setModalImg(src)}
-          >
-            <img
+          >{/*
+             <img
               src={src}
               alt={`Taller ${i + 1}`}
               className="block w-full h-auto object-contain"
               loading="lazy"
               style={{ display: "block" }}
             />
+             */}
           </button>
         ))}
       </div>
-
+        
       {/* Modal */}
       {modalImg && (
         <div
