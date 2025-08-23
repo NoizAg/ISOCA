@@ -9,7 +9,7 @@ export default function TalleresPage() {
   return (
     <div className="container mx-auto py-16">
       <h1 className="mb-6 text-6xl mx-auto font-bold text-center">Talleres</h1>
-      <p className="mb-6 text-lg max-w-2xl mx-auto font-bold ml-4">
+      <p className="mb-6 text-2xl mx-auto font-bold text-center">
         Participa en charlas y talleres interactivos sobre ecologia, bienestar y desarrollo personal.
       </p>
        <h1 className="mb-6 text-4xl mx-auto font-bold text-center">ACA TE VAMOS A MOSTRAR TODAS LAS NOVEDADES</h1>
@@ -17,7 +17,7 @@ export default function TalleresPage() {
         {images.map((src, i) => (
           <button
             key={src}
-            className="bg-gray-200 rounded-lg overflow-hidden shadow hover:scale-105 transition flex items-center justify-center p-0"
+            className="bg-green-800 rounded-lg overflow-hidden shadow hover:scale-105 transition flex items-center justify-center p-0"
             style={{ maxWidth: 400, width: "100%" }}
             onClick={() => setModalImg(src)}
           >{/*

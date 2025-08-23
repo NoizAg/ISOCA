@@ -43,7 +43,7 @@ export default function Header() {
           <div className="flex flex-col h-full p-6">
             {/* Header del menú */}
             <div className="flex items-center justify-between mb-8">
-              <span className="text-xl font-bold text-gray-800">Menú</span>
+              <span className="text-xl font-bold text-gray-800">Menu</span>
               <button
                 onClick={() => setMobileOpen(false)}
                 className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
@@ -116,7 +116,7 @@ export default function Header() {
 
         {/* Navegación desktop mejorada */}
         <nav className="hidden lg:block">
-          <div className="bg-white/90 backdrop-blur-sm rounded-full px-8 py-4 shadow-xl border border-amber-200/30 ring-1 ring-yellow-400/10">
+          <div className="bg-green/90 backdrop-blur-sm rounded-full px-8 py-4 shadow-xl border border-amber-200/30 ring-1 ring-yellow-400/10">
             <NavMenu />
           </div>
         </nav>

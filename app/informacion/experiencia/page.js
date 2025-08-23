@@ -35,7 +35,7 @@ export default function ExperienciaPage() {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white drop-shadow-lg">La Experiencia</h1>
           <p className="text-lg md:text-xl max-w-2xl mb-8 text-white drop-shadow-md leading-relaxed">
-            Un viaje inolvidable donde la música, la naturaleza y la comunidad se unen para crear momentos únicos que perdurarán en tu memoria.
+            Un viaje inolvidable donde la musica, la naturaleza y la comunidad se unen para crear momentos unicos que perduraran en tu memoria.
           </p>
         </div>
         {/* Masonry grid de imágenes optimizadas */}

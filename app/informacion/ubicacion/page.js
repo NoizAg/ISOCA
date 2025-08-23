@@ -19,9 +19,9 @@ export default function UbicacionPage() {
       {/* Contenido */}
       <div className="relative z-10 container mx-auto py-16 px-6">
         <div className="max-w-4xl">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white drop-shadow-lg">Ubicación</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white drop-shadow-lg">Ubicacion</h1>
           <p className="text-lg md:text-xl max-w-2xl mb-8 text-white drop-shadow-md leading-relaxed">
-            El Festival Isoca 2026 se realiza en un entorno natural único.
+            El Festival Isoca 2026 se realiza en un entorno natural unico.
           </p>
           
           {/* Mapa de Google Maps */}
@@ -32,7 +32,7 @@ export default function UbicacionPage() {
               height="400"
               style={{ border: 0 }}
               allowFullScreen=""
-              loading="lazy"
+//              loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Ubicación Club Dannevirke"
             ></iframe>

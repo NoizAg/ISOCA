@@ -8,10 +8,17 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
+      
       <BandsSection />
+     
+      
       <WorkshopsSection />
+     
+      
       {/* <FoodSection /> */}
       <ExperienceSection />
+      
+      
     </>
   );
 }

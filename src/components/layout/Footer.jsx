@@ -16,9 +16,9 @@ export default function Footer() {
       </div>
       <div className="container mx-auto text-center text-gray-500 text-xs mt-6">
         © 2026 Festival Isoca. Todos los derechos reservados.<br />
-        Contacto: info@isocafestival.com.ar<br />
-        Sitio desarrollado para fines informativos y de difusión cultural.
-        @Noiz
+        
+        Sitio desarrollado para fines informativos y de difusion cultural.
+        
       </div>
     </footer>
   );
