@@ -16,8 +16,8 @@ export default function ExperienceSection() {
       ></div>
       
       <div className="relative z-10 max-w-2xl mx-auto text-center text-white">
-        <h2 className="text-3xl md:text-5xl font-bold mb-4 drop-shadow-lg">La Experiencia de Estar Ahi</h2>
-        <p className="mb-6 text-lg drop-shadow-md">Vivamos en comunidad una celebracion de arte en la naturaleza
+        <h2 className="text-3xl md:text-5xl font-bold mb-4 drop-shadow-lg">Experiencia </h2>
+        <p className="mb-6 text-lg drop-shadow-md">Vivamos en comunidad una celebración de arte en la naturaleza
 </p>
         <a href="/informacion/experiencia" className="bg-green-800 rounded-lg overflow-hidden shadow hover:scale-105 transition flex items-center justify-center p-0 inline-block px-6 py-2  text-white font-semibold hover:bg-green-700 transition">Conocer Mas</a>
       </div>
