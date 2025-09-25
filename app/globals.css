@@ -2,10 +2,10 @@
 
 /* Self-hosted font: Stupid Meeting */
 @font-face {
-  font-family: "Stupid Meeting";
-  src: url("/fonts/Stupid Meeting_D.otf") format("opentype");
+  font-family: "Bebas Neue";
+  src: url("/fonts/Bebas_Neue-Regular.ttf") format("opentype");
   font-weight: 400;
-  font-style: normal;
+  font-style: regular;
   font-display: swap;
 }
 
@@ -31,7 +31,7 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Stupid Meeting", Arial, Helvetica, sans-serif;
+  font-family: "Bebas_Neue", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
   max-width: 100vw;
 }

@@ -81,7 +81,7 @@ export default function Header() {
         >
           <div className="relative">
             <Image
-              src="/images/logo-isoca.webp"
+              src="/images/1x1web.jpg"
               alt="Logo Isoca Festival"
               width={64}
               height={64}

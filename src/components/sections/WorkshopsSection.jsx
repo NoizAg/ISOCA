@@ -17,7 +17,7 @@ export default function WorkshopsSection() {
         <h2 className="text-3xl md:text-5xl font-bold mb-4 drop-shadow-lg">Talleres</h2>
         <p className="mb-6 text-lg max-w-2xl mx-auto drop-shadow">Experimentemos, aprendamos y conectemos con nuevos saberes
 </p>
-        <a href="/talleres" className="inline-block px-6 py-2 bg-green-800 text-white rounded font-semibold hover:bg-green-700 transition">Conocer Mas</a>
+        <a href="/talleres" className="inline-block px-6 py-2 bg-green-800 text-white rounded font-semibold hover:bg-green-700 transition">+ INFO</a>
       </div>
     </section>
   );

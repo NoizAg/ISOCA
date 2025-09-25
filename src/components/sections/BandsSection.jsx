@@ -19,7 +19,7 @@ export default function BandsSection() {
           <span style={{ FontSize: '25px' }}>Disfrutemos juntos de la energia y la musica de grandes artistas
 </span>
         </p>
-        <a href="/bandas" className="inline-block px-6 py-2 bg-green-800 text-white rounded font-semibold hover:bg-green-700 transition">Conocer Mas</a>
+        <a href="/bandas" className="inline-block px-6 py-2 bg-green-800 text-white rounded font-semibold hover:bg-green-700 transition">+ INFO</a>
       </div>
     </section>
   );

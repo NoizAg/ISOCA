@@ -11,8 +11,8 @@ export default function HeroSection() {
         playsInline
       />
       <div className="relative z-10 text-center text-white">
-        <h1 className="text-6xl md:text-8xl font-bold mb-6 drop-shadow-lg">FESTIVAL ISOCA 2026</h1>
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg subtitle">Musica Talleres  Naturaleza</h1>
+        <h1 className="text-6xl md:text-8xl font-bold mb-6 drop-shadow-lg font-stupid">FESTIVAL ISOCA 2026</h1>
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg subtitle font-stupid">Musica Talleres  Naturaleza</h1>
         <a href="https://www.tuentrada.com/eventos/detalle/Festival-Isoca/720437115623" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 bg-green-800 rounded text-lg font-semibold hover:bg-green-700 transition">¡COMPRA TU ENTRADA!</a>
       </div>
     </section>

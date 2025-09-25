@@ -10,7 +10,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Stupid Meeting', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        'sans': ['Bebas Neue', 'Arial', 'Helvetica', 'sans-serif'],
+        'bebas': ['Bebas Neue', 'Arial', 'Helvetica', 'sans-serif'],
+        'stupid': ['Stupid Meeting', 'Arial', 'Helvetica', 'sans-serif'],
         'bangers': ['Bangers', 'cursive'],
       },
       colors: {

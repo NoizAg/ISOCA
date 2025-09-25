@@ -33,9 +33,15 @@ export default function ExperienciaPage() {
       {/* Contenido */}
       <div className="relative z-10 container mx-auto py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white drop-shadow-lg">La Experiencia</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white drop-shadow-lg">Experiencia</h1>
           <p className="text-lg md:text-xl max-w-2xl mb-8 text-white drop-shadow-md leading-relaxed">
-            Un viaje inolvidable donde la musica, la naturaleza y la comunidad se unen para crear momentos unicos que perduraran en tu memoria.
+            El Festival Isoca es una celebración de arte en la naturaleza. 
+            Bajo el cielo de la pampa húmeda, desconectados de la tecnología, nos disponemos a vivir una experiencia sensorial profunda, en la que conectar con la tierra y con otros es el propósito esencial. 
+            Nos unimos en comunidad para construir redes que conectan todos los puntos cardinales, aprendiendo los unos de los otros. 
+¡Vivamos una experiencia transformadora! 
+Que el Festival Isoca sea para cada quien un punto de partida, un lugar donde nos inspiremos y sembremos nuevas intenciones para nuestra existencia.
+
+.
           </p>
         </div>
         {/* Masonry grid de imágenes optimizadas */}
@@ -57,4 +63,4 @@ export default function ExperienciaPage() {
       </div>
     </div>
   );
-} 
+}

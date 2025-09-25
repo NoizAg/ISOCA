@@ -12,7 +12,7 @@ export default function ActivitiesSection() {
       <h2 className="text-3xl font-bold mb-4">Actividades</h2>
       <p className="mb-6 text-lg max-w-2xl mx-auto">
         <span style={{ fontFamily: 'bangers, sans-serif' }}>Más allá de la música, sumergete en experiencias unicas para conectar con la naturaleza y el bienestar.</span></p>
-      <a href="/actividades" className="inline-block px-6 py-2 bg-green-600 text-white rounded font-semibold hover:bg-green-700 transition">Conocer Mas</a>
+      <a href="/actividades" className="inline-block px-6 py-2 bg-green-600 text-white rounded font-semibold hover:bg-green-700 transition">+ info</a>
     </section>
   );
 } 
